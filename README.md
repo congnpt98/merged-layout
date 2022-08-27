@@ -1,0 +1,1 @@
+# Merged layout (bootstrap tutorial)
