@@ -1,0 +1,93 @@
+.header__top {
+  background-color: #363d41;
+  padding: 10px 0;
+}
+
+.header__socials a {
+  color: #fff;
+  margin-right: 15px;
+}
+
+.header__socials a:first-child:hover {
+  color: #527dbd;
+}
+
+.header__socials a:nth-child(2):hover {
+  color: #1da1f2;
+}
+
+.header__socials a:nth-child(3):hover {
+  color: #dd4b39;
+}
+
+.header__socials a:last-child:hover {
+  color: #0077b5;
+}
+
+
+
+
+
+
+.header__socials i {
+  font-size: 16px;
+  text-align: center;
+  line-height: 29px;
+  width: 30px;
+  height: 30px;
+}
+
+.header__phone {
+  color: #fff;
+}
+
+.header__bottom {
+  padding: 1em 0em;
+}
+
+.header__navbar {
+  padding: 0em;
+}
+
+.header__navbar h1{
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+}
+
+.header__navbar .navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 0px;
+  font-size: 40px;
+  color: #7f67f8;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.header__navbar .navbar-brand span {
+  color: #868c94;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-item a {
+  font-size: 14px;
+  color: #363d41;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  margin: 0 15px;
+  padding: 0 !important;
+  transition: all .5s;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: #7f67f8;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #7f67f8;
+}
+
+

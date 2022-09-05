@@ -1,72 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Merged</title>
 
-    <!-- FONTS GOOGLE -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merged</title>
 
-    <!-- FONT AWSOME -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-    />
+  <!-- FONTS GOOGLE -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Lato:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
 
-    <!-- BOOTSTRAP 5 CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
+  <!-- FONT AWSOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+    crossorigin="anonymous" />
 
-    <!-- OWL CAROUSEL CSS-->
-    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  <!-- BOOTSTRAP 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
 
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="./css/index.css" />
-  </head>
-  <body>
-    <header></header>
-    <!-- CAROUSEL -->
-    <section class="carousel"></section>
-    <!-- WHAT YOU -->
-    <section class="what__you"></section>
-    <!-- MOTTO -->
-    <section class="motto"></section>
-    <!-- STATS -->
-    <section class="stats"></section>
-    <!-- SERVICES -->
-    <section class="services"></section>
-    <!-- FEEDBACK -->
-    <section class="feedback"></section>
-    <footer></footer>
+  <!-- OWL CAROUSEL CSS-->
+  <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
 
-    <!-- JQUERY JS -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-      crossorigin="anonymous"
-    ></script>
-    <!-- BOOTSTRAP 5 JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-      crossorigin="anonymous"
-    ></script>
-    <!-- OWL CAROUSEL JS -->
-    <script src="./js/owl.carousel.min.js"></script>
-    
-  </body>
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header__top">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="header__socials">
+          <a href="#" aria-label="Link to facebook socials"><i class="fa-brands fab fa-facebook-square"></i></a>
+          <a href="#" aria-label="Link to twitter socials"><i class="fa-brands fab fa-twitter"></i></a>
+          <a href="#" aria-label="Link to google plus socials"><i class="fa-brands fab fa-google-plus-g"></i></a>
+          <a href="#" aria-label="Link to linkedin socials"><i class="fa-brands fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="header__phone">
+          <i class="fa fa-phone"></i> +021 365 777
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <nav class="header__navbar container navbar navbar-expand-lg">
+          <h1>
+            <a class="navbar-brand" href="index.html">
+              M<span>ERGED</span>
+            </a>
+          </h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./views/about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./views/gallery.html">GALLERY</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./views/codes.html">Codes</a></li>
+                  <li class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./views/about.html">About</a></li>
+                </ul>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./views/contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- BANNER -->
+  <section class="banner">
+    <div id="carouselBanner" class="carousel slide " data-bs-ride="carousel">
+      <div class="carousel-inner container">
+        <div class="carousel-item active" data-bs-interval="8000">
+          <div class="carousel-caption">
+            <h1>The Best Business Support</h1>
+            <p>Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices Viverra. Donec Nisl Dolor, Mollis Vel Libero Id,
+              Tempor Cursus Lectus. Vestibulum Eu Ligula Et Pharetra Efficitur. Maecenas Eleifend.</p>
+            <div class="carousel-button">
+              <a class="btn btn-about-us" href="./views/about.html">About Us</a>
+              <a class="btn btn-read-more" href="#" data-bs-toggle="modal" data-bs-target="#newsModal">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="8000">
+          <div class="carousel-caption">
+            <h1>SERVICES TO GROW YOUR BUSINESS</h1>
+            <p>Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices Viverra. Donec Nisl Dolor, Mollis Vel Libero Id,
+              Tempor Cursus Lectus. Vestibulum Eu Ligula Et Pharetra Efficitur. Maecenas Eleifend.</p>
+            <div class="carousel-button">
+              <a class="btn btn-read-more" href="#" data-bs-toggle="modal" data-bs-target="#newsModal">Read More</a>
+              <a class="btn btn-about-us" href="./views/about.html">About Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="8000">
+          <div class="carousel-caption">
+            <h1>OPEN MINDS. CREATING FUTURE.</h1>
+            <p>Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices Viverra. Donec Nisl Dolor, Mollis Vel Libero Id,
+              Tempor Cursus Lectus. Vestibulum Eu Ligula Et Pharetra Efficitur. Maecenas Eleifend.</p>
+            <div class="carousel-button">
+              <a class="btn btn-about-us" href="./views/about.html">About Us</a>
+              <a class="btn btn-read-more" href="#" data-bs-toggle="modal" data-bs-target="#newsModal">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </section>
+  <!-- WHAT YOU -->
+  <section class="what-you">
+    <div class="container">
+      <div class="head__section">
+        <h2>What you get</h2>
+        <p>Our team provides consulting services focusing on the most critical business issues.</p>
+      </div>
+      <div class="divider"></div>
+      <div class="row about-details">
+        <div class="col-12 col-sm-4 ">
+          <i class="fa fa-th-large"></i>
+          <h3>Advanced Business</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident culpa eos optio facilis laboriosam.</p>
+        </div>
+        <div class="col-12 col-sm-4 col-border">
+          <i class="fa fa-share-square"></i>
+          <h3>Free Updates</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident culpa eos optio facilis laboriosam.</p>
+        </div>
+        <div class="col-12 col-sm-4">
+          <i class="fa fa-expand-arrows-alt"></i>
+          <h3>Looking Exellent</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident culpa eos optio facilis laboriosam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- MOTTO -->
+  <section class="motto">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-9">
+          <h3>We Make the Best Business Solutions</h3>
+        </div>
+        <div class="col-12 col-md-3 motto__button"><a href="./views/contact.html">Contact Us</a></div>
+      </div>
+    </div>
+  </section>
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container">
+      <div class="head__section">
+        <h3>We are always ahead Proffesional solutions for your business.</h3>
+        <p>Our results will fascinate you with the results we have</p>
+      </div>
+      <div class="row stats-details">
+        <div class="col-4">
+          <p class="counter">124</p>
+          <h4>Satisfied Clients</h4>
+          <h5>Pure satisfaction</h5>
+        </div>
+        <div class="col-4">
+          <p class="counter">1,148</p>
+          <h4>Successful Investments</h4>
+          <h5>Net income</h5>
+        </div>
+        <div class="col-4">
+          <p class="counter">45</p>
+          <h4>Branches Worldwide</h4>
+          <h5>Highest level of credibility</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SERVICES -->
+  <section class="services">
+    <div class="container">
+      <div class="head__section">
+        <h2>Our Main Services</h2>
+        <p>Our team provides consulting services focusing on the most critical business issues.</p>
+      </div>
+      <div class="row services-details">
+        <div class="col-4 services__subGrid">
+          <div class="services__item">
+            <i class="fa fa-arrows-alt"></i>
+            <h3>Commodities</h3>
+            <p>Taque earum rerum hitaque tenetur rum sapiente</p>
+          </div>
+        </div>
+        <div class="col-4 services__subGrid">
+          <div class="services__item">
+            <i class="fa fa-chart-bar"></i>
+            <h3>Analysis</h3>
+            <p>Taque earum rerum hitaque tenetur rum sapiente</p>
+          </div>
+        </div>
+        <div class="col-4 services__subGrid">
+          <div class="services__item">
+            <i class="fab fa-btc"></i>
+            <h3>Consulting</h3>
+            <p>Taque earum rerum hitaque tenetur rum sapiente</p>
+          </div>
+        </div>
+        <div class="col-4 services__subGrid">
+          <div class="services__item">
+            <i class="fa fa-cogs"></i>
+            <h3>Forecasting</h3>
+            <p>Taque earum rerum hitaque tenetur rum sapiente</p>
+          </div>
+        </div>
+        <div class="col-4 services__subGrid">
+          <div class="services__item">
+            <i class="fa fa-bullseye"></i>
+            <h3>Financial</h3>
+            <p>Taque earum rerum hitaque tenetur rum sapiente</p>
+          </div>
+        </div>
+        <div class="col-4 services__subGrid">
+          <div class="services__item">
+            <i class="fa fa-cubes"></i>
+            <h3>Assurance</h3>
+            <p>Taque earum rerum hitaque tenetur rum sapiente</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FEEDBACK -->
+  <section class="feedback">
+    <div class="container">
+      <div class="head__section">
+        <h2>Our Customers’ Opinion</h2>
+        <p>Our team provides consulting services focusing on the most critical business issues.</p>
+      </div>
+      <div class="owl-carousel owl-theme">
+        <div class="item feedback__item">
+          <img src="./images/t2.jpg" alt="">
+          <h3>Marry Watson</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptates sit praesentium
+            consequuntur perferendis.</p>
+        </div>
+        <div class="item feedback__item">
+          <img src="./images/t3.jpg" alt="">
+          <h3>Thompson</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptates sit praesentium
+            consequuntur perferendis.</p>
+        </div>
+        <div class="item feedback__item">
+          <img src="./images/t2.jpg" alt="">
+          <h3>Gomez</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptates sit praesentium
+            consequuntur perferendis.</p>
+        </div>
+        <div class="item feedback__item">
+          <img src="./images/t3.jpg" alt="">
+          <h3>John Whick</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptates sit praesentium
+            consequuntur perferendis.</p>
+        </div>
+        <div class="item feedback__item">
+          <img src="./images/t1.jpg" alt="">
+          <h3>Federeka</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptates sit praesentium
+            consequuntur perferendis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 footer__subscribe">
+            <h2>Subscribe Newsletter</h2>
+            <p>By subscribing to our mailing list you will always get latest news from us.</p>
+            <form action="#" class="input-group mb-3" method="post">
+              <input type="email" class="form-control" name="Email" placeholder="Enter your email..." required>
+              <button class="btn" type="submit" id="button-addon2"><i class="far fa-envelope"></i></button>
+            </form>
+          </div>
+          <div class="col-2 footer__link">
+            <h2>Our Links</h2>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="./views/about.html">About</a></li>
+              <li><a href="./views/gallery.html">Gallery</a></li>
+              <li><a href="./views/contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h2>Contact Us</h2>
+            <div class="footer__contact">
+              <i class="fa fa-map-marker-alt"></i>
+              <a class="" href="#" disabled>1234k Avenue, 4th block,
+                New York City.</a>
+            </div>
+            <div class="footer__contact">
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:info@example.com">info@example.com</a>
+            </div>
+            <div class="footer__contact">
+              <i class="fa fa-phone" style=" transform: rotateY(180deg);"></i>
+              <a href="#" disabled>+1234 567 567</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p class="copyright">&copy; 2018 Merged. All Rights Reserved &#124; Design by <a href="#">w3layouts</a></p>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal fade" tabindex="-1" id="newsModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h5 class="modal-title">Merged</h5>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid" src="./images/about.jpg" alt="">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores magni officia recusandae ipsam est beatae
+            porro sit fuga quaerat, cumque iusto asperiores libero consequatur possimus a dignissimos autem consequuntur
+            officiis reprehenderit. Nulla fugiat, repellendus at soluta nesciunt tempore exercitationem!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to top -->
+  <a href="#" class="backToTop cd-top text-replace js-cd-top">
+  </a>
+
+  <!-- JQUERY JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+  <!-- JQUERY WAYPOINT -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous"></script>
+  <!-- BOOTSTRAP 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+  </script>
+  <!-- OWL CAROUSEL JS -->
+  <script src="./js/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        576: {
+          items: 2
+        },
+        1200: {
+          items: 3
+        },
+      }
+    })
+  </script>
+  <!-- COUNT UP JS  -->
+  <script src="./js/jquery.countup.min.js"></script>
+  <script>
+    $('.counter').countUp();
+  </script>
+
+  <!-- BACK TO TOP JS  -->
+  <script src="./js/back-to-top.js"></script>
+  <script src="./js/util.js"></script>
+
+  <!-- NAVIGATION BAR JS -->
+  <script>
+    var mainNav = document.getElementById("navbarNavDropdown");
+    var listNav = mainNav.getElementsByTagName("li");
+    for (var i = 0; i < listNav.length; i++) {
+      listNav[i].addEventListener("click", function () {
+        var current = document.querySelector("#navbarNavDropdown .active");
+        current.className = current.className.replace("active", "");
+        this.className += "active";
+      });
+    }
+  </script>
+
+</body>
+
 </html>

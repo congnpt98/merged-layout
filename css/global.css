@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", "Ubuntu", "cantarell", sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #fff;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body a {
+  outline: none;
+  transition: all 0.5s;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+header,
+footer,
+.banner,
+.what-you,
+.motto,
+.stats,
+.services,
+.feedback {
+  display: block;
+}
+
+.what-you,
+.motto,
+.stats,
+.services,
+.feedback,
+.footer,
+.about-us,
+.about-team {
+  padding: 5em 0;
+}
+
+.head__section {
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+.head__section h2,
+.head__section h3 {
+  font-size: 3em;
+  color: #2c363e;
+  text-shadow: 0 1px 2px rgb(0, 0, 0, 37%);
+}
+.head__section h2{
+ font-size: 3em;
+}
+
+.head__section h3 {
+  font-size: 40px;
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.2em;
+}
+
+.head__section p {
+  font-size: 15px;
+  margin: 20px auto;
+  width: 60%;
+  color: #5e5e5e;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+}
+
+#newsModal .modal-header .modal-title {
+  font-size: 28px;
+  color: #7f67f8;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+#newsModal .modal-header .btn-close {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1;
+  color:#000;
+  text-shadow: 0 5px 0 #fff;
+  opacity: .5;
+}
+
+#newsModal .modal-body img {
+  width: 100%;
+}
+
+#newsModal .modal-body p {
+  font-size: 14px;
+  color: #777;
+  line-height: 28px;
+  padding: 1em;
+  margin: 0;
+}
+
