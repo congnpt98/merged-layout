@@ -43,9 +43,9 @@
         </div>
         <div class="header__bottom">
             <div class="container">
-                <nav class="header__navbar container navbar navbar-expand-md">
+                <nav class="header__navbar container navbar navbar-expand-lg">
                     <h1>
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="../index.html">
                             M<span>ERGED</span>
                         </a>
                     </h1>
@@ -57,10 +57,10 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                                <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">ABOUT</a>
+                                <a class="nav-link active" href="about.html">ABOUT</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="gallery.html">GALLERY</a>
@@ -108,10 +108,10 @@
     <section class="motto">
         <div class="container">
             <div class="row">
-                <div class="col-9">
+                <div class="col-md-9">
                     <h3>We Make the Best Business Solutions</h3>
                 </div>
-                <div class="col-3 motto__button"><a href="./views/contact.html">Contact Us</a></div>
+                <div class="col-md-3 motto__button"><a href="contact.html">Contact Us</a></div>
             </div>
         </div>
     </section>
@@ -123,7 +123,7 @@
                 <p>Our team provides consulting services focusing on the most critical business issues.</p>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3 about-grid">
                     <div class="about__team">
                         <img src="../images/t1.jpg" alt="">
                         <h3>Jane Mycle</h3>
@@ -135,7 +135,7 @@
                         </div>
                     </div>           
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 about-grid">
                     <div class="about__team">
                         <img src="../images/t2.jpg" alt="">
                         <h3>Jane Mycle</h3>
@@ -147,7 +147,7 @@
                         </div>
                     </div>           
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 about-grid">
                     <div class="about__team">
                         <img src="../images/t3.jpg" alt="">
                         <h3>Jane Mycle</h3>
@@ -159,7 +159,7 @@
                         </div>
                     </div>           
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 about-grid">
                     <div class="about__team">
                         <img src="../images/t4.jpg" alt="">
                         <h3>Jane Mycle</h3>
@@ -180,7 +180,7 @@
         <section class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 footer__subscribe">
+                    <div class="col-md-6 footer__subscribe">
                         <h2>Subscribe Newsletter</h2>
                         <p>By subscribing to our mailing list you will always get latest news from us.</p>
                         <form action="#" class="input-group mb-3" method="post">
@@ -190,16 +190,16 @@
                                     class="far fa-envelope"></i></button>
                         </form>
                     </div>
-                    <div class="col-2 footer__link">
+                    <div class="col-md-2 footer__link">
                         <h2>Our Links</h2>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="./views/about.html">About</a></li>
-                            <li><a href="./views/gallery.html">Gallery</a></li>
-                            <li><a href="./views/contact.html">Contact</a></li>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <h2>Contact Us</h2>
                         <div class="footer__contact">
                             <i class="fa fa-map-marker-alt"></i>
@@ -244,20 +244,6 @@
     <!-- BACK TO TOP JS  -->
     <script src="../js/back-to-top.js"></script>
     <script src="../js/util.js"></script>
-
-    <!-- NAVIGATION BAR JS -->
-    <!-- <script>
-        var mainNav = document.getElementById("navbarNavDropdown");
-        var listNav = mainNav.getElementsByTagName("li");
-        for (var i = 0; i < listNav.length; i++) {
-            listNav[i].addEventListener("click", function () {
-                var current = document.querySelector("#navbarNavDropdown .active");
-                current.className = current.className.replace("active", "");
-                this.className += "active";
-            });
-        }
-    </script> -->
-
 </body>
 
 </html>

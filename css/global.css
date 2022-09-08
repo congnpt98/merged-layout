@@ -22,7 +22,12 @@ body a {
   transition: all 0.5s;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -52,7 +57,10 @@ footer,
 .feedback,
 .footer,
 .about-us,
-.about-team {
+.about-team,
+.gallery,
+.contact,
+.codes {
   padding: 5em 0;
 }
 
@@ -67,8 +75,8 @@ footer,
   color: #2c363e;
   text-shadow: 0 1px 2px rgb(0, 0, 0, 37%);
 }
-.head__section h2{
- font-size: 3em;
+.head__section h2 {
+  font-size: 3em;
 }
 
 .head__section h3 {
@@ -101,9 +109,9 @@ footer,
   font-size: 0.9rem;
   font-weight: 700;
   line-height: 1;
-  color:#000;
+  color: #000;
   text-shadow: 0 5px 0 #fff;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #newsModal .modal-body img {
@@ -118,3 +126,6 @@ footer,
   margin: 0;
 }
 
+.coming-soon img {
+  width: 100%;
+}

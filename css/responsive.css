@@ -1,0 +1,384 @@
+@media screen and (max-width: 1440px) {
+  .header__navbar .navbar-brand {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  #carouselBanner .carousel-caption h1 {
+    font-size: 4vw;
+  }
+
+  .motto h3 {
+    letter-spacing: 3px;
+    font-size: 36px;
+  }
+
+  .footer h3 {
+    font-size: 1.65em;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .header__navbar .navbar-toggler {
+    border: 1px solid transparent;
+    background: #7f67f8;
+    border-color: #7f67f8;
+    padding: 2px 6px;
+    margin-top: 5px;
+    margin-right: 16px;
+    outline: none;
+    z-index: 100;
+    border-radius: 6px;
+    font-size: 1.56rem;
+    line-height: 1;
+  }
+
+  .header__navbar .navbar-toggler:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  .header__navbar .navbar-toggler i {
+    width: 1.2em;
+    height: 1.2em;
+    line-height: 1.2em;
+  }
+
+  #navbarNavDropdown {
+    position: absolute;
+    width: 97%;
+    left: 0;
+    top: 49px;
+    z-index: 111;
+    background: #000;
+  }
+
+  #navbarNavDropdown .navbar-nav {
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  #navbarNavDropdown .nav-item {
+    margin: 10px 0;
+    transition: all 0.5s;
+  }
+
+  #navbarNavDropdown .nav-item:hover a {
+    color: #7f67f8;
+  }
+
+  #navbarNavDropdown .nav-item .nav-link {
+    color: #fff;
+  }
+
+  #navbarNavDropdown .nav-item .nav-link.active {
+    color: #7f67f8;
+  }
+
+  #navbarNavDropdown .nav-item .dropdown-divider {
+    background: #000000;
+  }
+
+  #navbarNavDropdown .nav-item .dropdown-menu li {
+    overflow: hidden;
+  }
+
+  #navbarNavDropdown .nav-item .dropdown-menu a {
+    margin: 0;
+    padding: 3px 24px !important;
+  }
+
+  #navbarNavDropdown .nav-item .dropdown-menu a:hover {
+    background: #000;
+  }
+
+  .banner,
+  .banner .carousel {
+    min-height: 560px;
+  }
+
+  #carouselBanner .carousel-caption {
+    padding: 18vw 0 0;
+  }
+  #carouselBanner .carousel-caption h1 {
+    font-size: 3.4vw;
+    letter-spacing: 0.1em;
+  }
+  #carouselBanner .carousel-caption p {
+    width: 100%;
+    font-size: 1.6vw;
+  }
+
+  #carouselBanner .carousel-indicators {
+    bottom: 10vw;
+  }
+
+  .head__section p {
+    width: 100%;
+  }
+
+  .what-you .about-details h3 {
+    font-size: 20px;
+  }
+
+  .what-you .about-details p {
+    font-size: 14px;
+  }
+
+  .motto h3 {
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+
+  .motto .motto__button {
+    padding: 0.7em 1.3em;
+  }
+
+  .head__section h3 {
+    width: 100%;
+  }
+  .services__item {
+    padding: 1.5em;
+  }
+  .services__item h3 {
+    font-size: 1.4em;
+  }
+  .footer__subscribe {
+    padding-right: 1em;
+  }
+  .about-team .about-grid {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 799.98px) {
+  .head__section {
+    margin-bottom: 3em;
+  }
+  .head__section h2 {
+    font-size: 8vw;
+  }
+  .head__section h3 {
+    font-size: 2.7em;
+  }
+  .what-you,
+  .stats,
+  .services,
+  .feedback,
+  .footer {
+    padding: 3em 0;
+  }
+  .motto {
+    padding: 4em 0;
+  }
+  .stats-details p {
+    font-size: 2.8em;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .banner,
+  .banner .carousel {
+    min-height: 490px;
+  }
+  #carouselBanner .carousel-caption {
+    padding: 16vw 0 0;
+  }
+  #carouselBanner .carousel-caption p {
+    font-size: 14px;
+  }
+  #carouselBanner .carousel-caption h1 {
+    font-size: 3.4vw;
+  }
+  #carouselBanner .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+  }
+  #carouselBanner .carousel-indicators {
+    bottom: 8vw;
+  }
+  #carouselBanner .carousel-button .btn-about-us,
+  #carouselBanner .carousel-button .btn-read-more {
+    padding: ;
+  }
+}
+
+@media screen and (max-width: 735.98px) {
+  .banner,
+  .banner .carousel {
+    min-height: 455px;
+  }
+
+  .head__section h3 {
+    line-height: 1.1em;
+  }
+
+  .stats-details p {
+    font-size: 2.2em;
+  }
+
+  .footer {
+    padding: 3em 0 2em;
+  }
+
+  .footer h3 {
+    margin-bottom: 0.5em;
+  }
+
+  .footer__subscribe,
+  .footer__link,
+  .footer__info {
+    margin-top: 2em;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .banner,
+  .banner .carousel {
+    min-height: 420px;
+  }
+  #carouselBanner .carousel-caption h1 {
+    font-size: 4.7vw;
+  }
+  .what-you .about-details .col-border {
+    border-left: none;
+    border-right: none;
+    margin: 2em 0;
+  }
+  .divider {
+    margin: 0 auto 2em;
+  }
+  .head__section h2 {
+    font-size: 7vw;
+  }
+  .head__section h3 {
+    font-size: 2.5em;
+  }
+  .stats-details .col-sm-4:nth-child(2) {
+    margin: 1em 0;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .banner,
+  .banner .carousel {
+    min-height: 390px;
+  }
+  #carouselBanner .carousel-caption p {
+    margin: 10px auto 20px;
+  }
+  .head__section h3 {
+    font-size: 2.3em;
+  }
+  p {
+    font-size: 14px;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+  .about-team .about-grid {
+    padding: 2em 1em;
+  }
+}
+
+@media screen and (max-width: 439.98px) {
+  .banner,
+  .banner .carousel {
+    min-height: 370px;
+  }
+  .about-team .about-grid {
+    padding: 2em 2em;
+  }
+}
+
+@media screen and (max-width: 425.98px) {
+  .head__section h2 {
+    font-size: 9vw;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header__socials a {
+    margin-right: 1.8vw;
+  }
+  .banner,
+  .banner .carousel {
+    min-height: 350px;
+  }
+
+  #carouselBanner .carousel-caption h1 {
+    letter-spacing: 0em;
+  }
+
+  #carouselBanner .carousel-button .btn-about-us,
+  #carouselBanner .carousel-button .btn-read-more {
+    padding: 1.6vw 4vw;
+    font-size: 3.4vw;
+  }
+
+  .footer__contact a {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 399.98px) {
+  #carouselBanner .carousel-caption p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .stats-details h4 {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .what-you,
+  .stats,
+  .services,
+  .feedback,
+  .footer {
+    padding: 2.5em 0;
+  }
+  .banner,
+  .banner .carousel {
+    min-height: 310px;
+  }
+  #carouselBanner .carousel-caption p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .header__socials i {
+    width: 24px;
+    height: 24px;
+  }
+  .head__section {
+    margin-bottom: 2em;
+  }
+  .head__section h2 {
+    font-size: 2em;
+  }
+  .head__section h3 {
+    font-size: 2em;
+  }
+
+  .motto h3 {
+    font-size: 25px;
+  }
+
+  .footer {
+    padding: 1em 0 2em;
+  }
+
+  .footer h3 {
+    font-size: 1.5em;
+  }
+
+  .footer__contact a {
+    font-size: 14px;
+  }
+}

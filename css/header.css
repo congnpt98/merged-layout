@@ -72,12 +72,12 @@
 }
 
 .navbar-nav .nav-item a {
+  display: block;
+  padding: 3px 1.5rem;
   font-size: 14px;
   color: #363d41;
   letter-spacing: 0.1em;
   font-weight: 700;
-  margin: 0 15px;
-  padding: 0 !important;
   transition: all .5s;
 }
 

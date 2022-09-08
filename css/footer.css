@@ -3,7 +3,7 @@
   padding: 5em 0;
 }
 
-.footer h2 {
+.footer h3 {
   font-size: 1.7em;
   color: #f97c69;
   position: relative;
@@ -103,7 +103,7 @@
   line-height: 1.8em;
   letter-spacing: 2px;
   text-align: center;
-  margin:0;
+  margin: 0;
   background: #252525;
   padding: 16px 0;
 }
